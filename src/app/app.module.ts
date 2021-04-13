@@ -30,6 +30,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common/';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { DeleteComponent } from './components/product/delete/delete.component';
 registerLocaleData(localePt);
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ registerLocaleData(localePt);
     ForDirective,
     ProductReadComponent,
     ProductRead2Component,
+    ProductUpdateComponent,
+    DeleteComponent,
 
 
 
