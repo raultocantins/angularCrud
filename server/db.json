@@ -9,6 +9,21 @@
       "id": 2,
       "name": "Notebook Mac-pro",
       "price": 12
+    },
+    {
+      "name": "Teste novo produto",
+      "price": "5.89",
+      "id": 3
+    },
+    {
+      "name": "Novo",
+      "price": "20.20",
+      "id": 4
+    },
+    {
+      "name": "Teste",
+      "price": "123.123",
+      "id": 5
     }
   ]
 }

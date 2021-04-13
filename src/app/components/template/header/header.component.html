@@ -1,9 +1,9 @@
 <mat-toolbar class="header mat-elevation-z2">
     <span><a routerLink="/"><img class="logo" src="../../../../assets//logo.png" alt="logo" /></a></span>
     <span class="title-group">
-        <a>
-            <i class="material-icons ">home</i>
-            Início
+        <a routerLink="{{urlRoute}}">
+            <i class="material-icons ">{{icon}}</i>
+            {{title}}
         </a>
     </span>
 </mat-toolbar>
